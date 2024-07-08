@@ -1,3 +1,15 @@
+::-webkit-scrollbar {
+    background-color: rgba(49, 45, 45, 0.91);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(26, 153, 255, 0.8);
+}
+
 .bg-navbar {
     background-color: #021b52;
 }
@@ -8,6 +20,7 @@
 
 .nav-item:hover{
     font-weight: 500;
+    scale: 110%;
 }
 
 .nav-link{
@@ -16,6 +29,89 @@
 
 .nav-link:hover{
     color: #0dcaf0;
+}
+
+.homeSection {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    background: linear-gradient(to right, #021b52, #021b32);
+    min-height: 90vh;
+    padding: 160px 0 60px 0;
+}
+
+.homeSection h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #b4ffff;
+
+}
+
+.homeSection h2 span {
+    color: #0dcaff;
+}
+
+.img-size {
+    width: 30vw;
+    border-radius: 100%;
+}
+
+#content {
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #957bff;
+}
+
+.social_media a {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    color: #957bff;
+    border: .2rem solid #957bff;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 4rem 1.5rem 3rem 1rem;
+}
+
+.social_media a:hover {
+    background: #0AD9F5;
+    color: #323946;
+    box-shadow: 0 0 1rem #0AD9F5;
+    transform: scale(1.3);
+}
+
+.homeSection .btn-Get-Resume {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #0dcaff;
+    box-shadow: 0 8px 28px rgb(10, 78, 93);
+}
+
+.homeSection .btn-Get-Resume:hover {
+    background: rgb(10, 217, 245);
+    color: #021b52;
+    box-shadow: 0 8px 28px rgb(10, 217, 245);
+}
+
+.homeSection p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
 }
 
 

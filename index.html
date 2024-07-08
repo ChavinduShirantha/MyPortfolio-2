@@ -16,11 +16,13 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg bg-navbar fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-navbar fixed-top navbar-dark shadow">
         <div class="container-fluid d-flex">
             <h1 class="navbar-brand fw-bold text-white" href="#">Port<span class="navbar-brand-sub">folio.</span></h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -54,7 +56,38 @@
     </nav>
 </header>
 
+<section class="homeSection" id="homeSection">
+    <div class="container">
+        <div class="row justify-content-between gy-5">
+            <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+                <h2 data-aos="fade-up">Hello I'm <br><span>Chavindu Shirantha</span><br> I'm a</h2>
+                <h4 data-aos="fade-up" data-aos-delay="100"><span id="content"></span></h4>
+                <p data-aos="fade-up" data-aos-delay="100">I’m passionate about new technologies ,
+                    learning new skills and solving problems.Follow Me On</p>
+                <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <a href="assets/other/Chavindu%20Shirantha%20-%20CV.pdf" download="Chavindu Shirantha CV.pdf" class="btn-Get-Resume">Get Resume</a>
+                </div>
+
+            </div>
+            <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+                <img alt="Profile Image" class="img-fluid img-size" data-aos="zoom-out" data-aos-delay="200"
+                     src="assets/images/Chavindu%20Shirantha.jpg">
+                <div class="social_media" data-aos="zoom-out" data-aos-delay="300">
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#"><i class='bx bxl-gmail'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/aos/aos.js"></script>
 
 </body>
 </html>
