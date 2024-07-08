@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 ::-webkit-scrollbar {
     background-color: rgba(49, 45, 45, 0.91);
 }
@@ -18,16 +21,16 @@
     color: #ff0000;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     font-weight: 500;
     scale: 110%;
 }
 
-.nav-link{
+.nav-link {
     color: #ffffff;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #0dcaf0;
 }
 
@@ -115,3 +118,50 @@
 }
 
 
+/*About Section*/
+
+#aboutSection {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(to right, #021b52, #021b32);
+    padding: 2rem;
+}
+
+.section-header h2 {
+    position: relative;
+    top: 3rem;
+    padding-bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #b4ffff;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+#about_img {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4rem;
+}
+
+#aboutPara {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'Cambria', serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.about-details {
+    margin-top: 4rem;
+    text-align: center;
+    color: white;
+    font-family: 'Gowun Batang', serif;
+}
