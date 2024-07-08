@@ -143,3 +143,42 @@ jQuery(function ($) {
         $this.countTo(options);
     }
 });
+
+$(document).ready(function () {
+    $("#homeBtn>a").css({
+        "color": "#0dcaf0",
+        "font-weight": 500,
+        "scale": "110%",
+    });
+    $("#aboutBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
+});
+
+$("#homeBtn").click(function () {
+    $("#homeBtn>a").css({
+        "color": "#0dcaf0",
+        "font-weight": 500,
+        "scale": "110%",
+    });
+    $("#aboutBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
+});
+
+$("#aboutBtn").click(function () {
+    $("#homeBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
+    $("#aboutBtn>a").css({
+        "color": "#0dcaf0",
+        "font-weight": 500,
+        "scale": "110%",
+    });
+});
