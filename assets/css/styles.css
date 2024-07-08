@@ -165,3 +165,44 @@
     color: white;
     font-family: 'Gowun Batang', serif;
 }
+
+/*Counter section start*/
+
+#counterSection {
+    width: 100%;
+    background: linear-gradient(to right, #021b52, #021b32);
+    padding: 8rem;
+}
+
+.counter {
+    border-radius: 10px;
+}
+
+.count-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #021b52;
+}
+
+.count-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #021b52;
+}
+
+.counter > i {
+    font-size: 50px;
+}
+
+#counter-body {
+    background: #c8ffff;
+    border-radius: 10px;
+}
+
+/*Counter section end*/
