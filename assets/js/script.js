@@ -160,6 +160,11 @@ $(document).ready(function () {
         "font-weight": 400,
         "scale": "100%",
     });
+    $("#serviceBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
 });
 
 $("#homeBtn").click(function () {
@@ -174,6 +179,11 @@ $("#homeBtn").click(function () {
         "scale": "100%",
     });
     $("#contactBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
+    $("#serviceBtn>a").css({
         "color": "#ffffff",
         "font-weight": 400,
         "scale": "100%",
@@ -196,6 +206,11 @@ $("#aboutBtn").click(function () {
         "font-weight": 400,
         "scale": "100%",
     });
+    $("#serviceBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
 });
 
 $("#contactBtn").click(function () {
@@ -210,6 +225,33 @@ $("#contactBtn").click(function () {
         "scale": "100%",
     });
     $("#contactBtn>a").css({
+        "color": "#0dcaf0",
+        "font-weight": 500,
+        "scale": "110%",
+    });
+    $("#serviceBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
+});
+$("#serviceBtn").click(function () {
+    $("#homeBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
+    $("#aboutBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
+    $("#contactBtn>a").css({
+        "color": "#ffffff",
+        "font-weight": 400,
+        "scale": "100%",
+    });
+    $("#serviceBtn>a").css({
         "color": "#0dcaf0",
         "font-weight": 500,
         "scale": "110%",

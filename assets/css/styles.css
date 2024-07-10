@@ -207,6 +207,76 @@
 
 /*Counter section end*/
 
+/* service section start */
+
+.servicesSection {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(to right, #021b52, #021b32);
+    padding: 2rem;
+}
+
+.services_main {
+    position: relative;
+    top: 3rem;
+    padding-bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #b4ffff;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+.service-item {
+    height: 500px;
+    background: #e8e8e8;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.service-item:hover,
+.service-item.active {
+    background: rgb(12, 15, 73);
+    border: 1px solid white;
+}
+
+.service-item h1,
+.service-item h4,
+.service-item p {
+    transition: .5s;
+}
+
+
+.service-item:hover h1,
+.service-item.active h1 {
+    color: #afafaf !important;
+}
+
+.service-item:hover p,
+.service-item.active p {
+    color: #afafaf !important;
+}
+
+.service-item:hover h4,
+.service-item.active h4 {
+    color: #F8F9FAFF;
+}
+
+.service-icon {
+    background: #0dcaf0;
+    border-radius: 10px;
+}
+
+.service-icon > i {
+    color: #ffffff !important;
+}
+
+/* service section end */
 
 /*Contact Section Start*/
 
