@@ -206,3 +206,64 @@
 }
 
 /*Counter section end*/
+
+
+/*Contact Section Start*/
+
+.contactSection {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(to right, #021b52, #021b32);
+    padding: 2rem;
+}
+
+.contact-header {
+    position: relative;
+    top: 3rem;
+    padding-bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #b4ffff;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+#btnSendMessage {
+    background-color: #021b52;
+    border: 1px solid white;
+    color: #fff;
+}
+
+#btnSendMessage:hover {
+    background-color: #363636;
+}
+
+.contact-info > div > div > i {
+    color: #a4a4a4 !important;
+    font-size: 20px;
+}
+
+.contactSection .contact-info p {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.contactSection .contact-info p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #c7c7c7;
+}
+
+.contact-form {
+    background: none;
+    border: 1px white solid;
+}
+
+/*Contact Section End*/
