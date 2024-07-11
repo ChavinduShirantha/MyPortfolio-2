@@ -166,6 +166,21 @@
     font-family: 'Gowun Batang', serif;
 }
 
+/*About section End*/
+
+/*Skills Section Start*/
+
+#skillsSection {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    min-height: fit-content;
+    background: linear-gradient(to right, #021b52, #021b32);
+    padding: 2rem;
+}
+
+/*Skills section End*/
+
 /*Counter section start*/
 
 #counterSection {
