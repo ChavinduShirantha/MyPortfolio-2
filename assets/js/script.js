@@ -257,3 +257,41 @@ $("#serviceBtn").click(function () {
         "scale": "110%",
     });
 });
+
+
+jQuery(function ($) {
+    // Show or hide the sticky footer button
+    $(window).on("scroll", function () {
+        if ($(this).scrollTop() > 200) {
+            $(".scroll-to-top").fadeIn(200);
+        } else {
+            $(".scroll-to-top").fadeOut(200);
+        }
+    });
+
+    // Animate the scroll to top
+    $(".scroll-to-top").on("click", function (event) {
+        event.preventDefault();
+        $("html, body").animate({scrollTop: 0}, 300);
+        $("#homeBtn>a").css({
+            "color": "#0dcaf0",
+            "font-weight": 500,
+            "scale": "110%",
+        });
+        $("#aboutBtn>a").css({
+            "color": "#ffffff",
+            "font-weight": 400,
+            "scale": "100%",
+        });
+        $("#contactBtn>a").css({
+            "color": "#ffffff",
+            "font-weight": 400,
+            "scale": "100%",
+        });
+        $("#serviceBtn>a").css({
+            "color": "#ffffff",
+            "font-weight": 400,
+            "scale": "100%",
+        });
+    });
+});
