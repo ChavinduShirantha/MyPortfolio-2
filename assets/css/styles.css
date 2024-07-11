@@ -458,6 +458,31 @@
     border: 1px solid white;
 }
 
+.contact-whatsapp {
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    bottom: 5%;
+    left: 2%;
+    z-index: 99999;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #0dcaf0;
+    line-height: 45px;
+}
+
+.contact-whatsapp .contact-whatsapp-icon {
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.contact-whatsapp:hover {
+    background-color: #021b52;
+    border: 1px solid white;
+}
+
 .btn-square {
     width: 36px;
     height: 36px;
