@@ -278,6 +278,77 @@
 
 /* service section end */
 
+/* projects section start */
+
+.projectsSection {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(to right, #021b52, #021b32);
+    padding: 2rem;
+}
+
+.projects_main {
+    position: relative;
+    top: 3rem;
+    padding-bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #b4ffff;
+    font-family: 'Gowun Batang', serif;
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+.projects-item {
+    height: 500px;
+    background: #e8e8e8;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.projects-item:hover,
+.projects-item.active {
+    background: rgb(12, 15, 73);
+    border: 1px solid white;
+}
+
+.projects-item h1,
+.projects-item h4,
+.projects-item p {
+    transition: .5s;
+}
+
+
+.projects-item:hover h1,
+.projects-item.active h1 {
+    color: #afafaf !important;
+}
+
+.projects-item:hover p,
+.service-item.active p {
+    color: #afafaf !important;
+}
+
+.projects-item:hover h4,
+.projects-item.active h4 {
+    color: #F8F9FAFF;
+}
+
+.projects-url {
+    color: #4b4b4b;
+}
+
+.projects-url>p:hover {
+    color: white!important;
+    scale: 110%;
+}
+
+/* projects section end */
+
 /*Contact Section Start*/
 
 .contactSection {
