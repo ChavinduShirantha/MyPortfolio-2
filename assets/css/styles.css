@@ -13,6 +13,10 @@
     background-color: rgba(26, 153, 255, 0.8);
 }
 
+.navbar{
+    z-index: 10;
+}
+
 .bg-navbar {
     background-color: #021b52;
 }
@@ -437,7 +441,7 @@
     bottom: 5%;
     right: 2%;
     display: none;
-    z-index: 99999;
+    z-index: 10;
     cursor: pointer;
     text-align: center;
     border-radius: 50%;
@@ -464,7 +468,7 @@
     position: fixed;
     bottom: 5%;
     left: 2%;
-    z-index: 99999;
+    z-index: 10;
     cursor: pointer;
     text-align: center;
     border-radius: 50%;
@@ -523,4 +527,33 @@
 
 .txt-title > a:hover {
     color: #0dcaf0;
+}
+
+#loader {
+    transition: opacity 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f9f5f1;
+    z-index: 100;
+}
+
+#loader > div {
+    /*width: 500px;
+    height: 500px;*/
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#loader > div>img {
+    width: 20em;
+    height: 20em;
 }
